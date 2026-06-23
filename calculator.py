@@ -7,7 +7,7 @@ def divide(x, y):
     return x / y
 
 def run_calculator():
-    print("=== Production-Ready Calculator ===")
+    print(" Production-Ready Calculator ")
     
     while True:
         print("\nAvailable Operations:")
