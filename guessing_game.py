@@ -1,10 +1,9 @@
 import random
 
 def play_game():
-    print("=== The Number Guessing Game ===")
+    print("The Number Guessing Game ")
     print("I am thinking of a number between 1 and 100.")
     
-    # Generate a secret random integer
     secret_number = random.randint(1, 100)
     attempts = 0
     
@@ -22,7 +21,7 @@ def play_game():
         elif guess > secret_number:
             print("Too high! Try a lower number.")
         else:
-            print(f"🎉 Correct! You found the number in {attempts} attempts.")
+            print(f" Correct! You found the number in {attempts} attempts.")
             break
 
 if __name__ == "__main__":
