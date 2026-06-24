@@ -7,11 +7,7 @@ def divide(x, y):
     return x / y
 
 def run_calculator():
-<<<<<<< HEAD
     print(" Production-Ready Calculator ")
-=======
-    print("Production-Ready Calculator")
->>>>>>> 53efaef (I have made some changes)
     
     while True:
         print("\nAvailable Operations:")
