@@ -1,0 +1,11 @@
+{
+    "agent_name": "SupportBot-v2",
+    "temperature": 0.3,
+    "max_tokens": 150,
+    "allowed_tools": [
+        "search_web",
+        "check_inventory",
+        "calc_refund"
+    ],
+    "active": true
+}
