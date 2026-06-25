@@ -1,11 +1,11 @@
 import random
 
 def play_game():
-<<<<<<< HEAD
+
     print("The Number Guessing Game ")
-=======
+
     print(" The Number Guessing Game ")
->>>>>>> 53efaef (I have made some changes)
+
     print("I am thinking of a number between 1 and 100.")
     
     secret_number = random.randint(1, 100)

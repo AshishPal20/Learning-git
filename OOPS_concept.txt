@@ -1,0 +1,29 @@
+# OOPS : object oriented programming system refers to a programming paradigm that uses objects and classes in programming. It aims to implement real-world entities like inheritance, polymorphism, encapsulation, etc. in the programming. The main aim of OOPS is to bind together the data and the functions that operate on them so that no other part of the code can access this data except that function.
+
+# OOPS relies on two main concepts: class and object.
+# class : the blueprint or the mold (e.g. blueprint of a house)
+
+#object : the instance of a class (e.g. a house built from the blueprint).
+
+
+
+# The Four Pillars of OOPs:
+
+# 1. Encapsulation (Data Shielding): It is the mechanism of restricting access to some of an object's components, which means that the internal representation of an object can't be seen from outside of the objects definition. Access to this data is typically achieved through special methods called getters and setters.
+
+In Python, putting a double underscore __ before a variable name makes it private.It can no longer be accessed directly from outside the class. You must use specific functions called Getters and Setters to read or change it safely.
+
+
+
+# 2. Abstraction (Hiding complexity): It is the process of hiding the implementation details from the user, only the functionality will be provided to the user. In other words, the user will have the information on what the object does instead of how it does it.
+The Rule: Python uses a built-in module called abc (Abstract Base Classes). An abstract class acts as a mandatory template. It cannot be created directly; it only exists to force child classes to implement specific methods.
+
+
+
+# 3. Inheritance (Code reuse): It is the mechanism of basing an object or class upon another object (prototype-based inheritance) or class (class-based inheritance), retaining similar implementation. Inheritance allows us to define a class that inherits all the methods and properties from another class.
+
+The Rule: Pass the Parent class name inside parentheses when defining the Child class: class Child(Parent):. Use super().__init__() to trigger the parent's setup.
+
+
+
+# 4. Polymorphism(Many forms): It is the ability of a variable, function or object to take on multiple forms. In simple words, polymorphism allows us to perform a single action in different ways.
