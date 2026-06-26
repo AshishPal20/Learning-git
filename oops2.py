@@ -9,7 +9,7 @@ class Robot:
         if self.battery < 10:
             print(f"⚠️ {self.name} says: Battery too low to speak!")
             return
-        self.battery -= 5 # Speaking uses 5% battery
+        self.battery -= 5      # Speaking uses 5% battery
         print(f"🤖 [{self.name} running {self.engine}]: '{message}' (Battery: {self.battery}%)")
 
     # Action 2: Charge (Modifies the robot's own battery data)
