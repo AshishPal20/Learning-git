@@ -19,8 +19,8 @@ class Robot:
 bot1 = Robot("Jarvis", "GPT-4")
 bot2 = Robot("T-800", "Llama-4")
 
-print(f"{bot1.greet()}, my engine type is {bot1.engine}.")
-print(f"{bot2.greet()}, my engine type is {bot2.engine}.")
+print(f"{bot1.greet()}, my engine type is {bot1.engine} and {bot1.perform_task('assisting humans')}.")
+print(f"{bot2.greet()}, my engine type is {bot2.engine} and {bot2.perform_task('planting trees')}.")
 
 # Functions written inside a class are called Methods.
 # Whenever a method executes, it must take self as its first parameter so it knows which specific robot is performing the action.
